@@ -4,8 +4,10 @@
         {
             "type": "cargo",
             "command": "run",
+            "options": { "cwd": "${workspaceFolder}/eg_diesel" },
+            "args": ["-p", "eg_diesel"],
             "problemMatcher": ["$rustc"],
-            "label": "rust: cargo run"
+            "label": "rust: cargo run eg_diesel"
         }
     ]
 }
